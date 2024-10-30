@@ -1,6 +1,6 @@
 # Игра Висельница
 
-Приложение представляет из себя консольную игру "Виссельница"("Балда")
+Приложение представляет из себя консольную игру "Висельница"("Балда")
 
 ## Структура проекта
 
@@ -39,11 +39,13 @@
 Для того чтобы запустить проект на Windows:
 
 ```shell
+./mvnw compile
 ./mvnw exec:java -Dexec.mainClass="backend.academy.Main"
 ```
 
 Для того чтобы запустить проект на Linux:
 
 ```shell
+./mvn compile
 ./mvn exec:java -Dexec.mainClass="backend.academy.Main"
 ```
